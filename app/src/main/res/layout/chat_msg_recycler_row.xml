@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/sender_color"
+        android:id="@+id/left_chat_layout"
+        android:padding="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="80dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/left_chat_txtview"
+            android:textIsSelectable="true"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/receiver_color"
+        android:padding="8dp"
+        android:id="@+id/right_chat_layout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textIsSelectable="true"
+            android:id="@+id/right_chat_txtview"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

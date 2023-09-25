@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:weightSum="100"
+    tools:context=".activity.LoginUsernameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular"
+            android:backgroundTint="@color/lightgrey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:text="1"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular"
+            android:backgroundTint="@color/lightgrey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular"
+            android:backgroundTint="@color/myPrimary">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:text="3"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_weight="20"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/baseline_person_24"
+        app:tint="@color/myPrimary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:letterSpacing="0.08"
+        android:layout_weight="5"
+        android:text="Enter Your UserName"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_margin="10dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/lightgrey"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:id="@+id/login_username"
+            android:hint="Username"
+            android:background="@drawable/rounded"
+            android:layout_gravity="center"
+            android:letterSpacing="0.08"
+            android:elevation="5dp"
+            android:shadowColor="@color/black"
+            android:inputType="text"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="FINISH"
+            android:id="@+id/login_finish"/>
+
+        <ProgressBar
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/login_progress_bar"
+            android:indeterminateTint="@color/myPrimary"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

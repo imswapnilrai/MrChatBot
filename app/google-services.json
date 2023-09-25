@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "940263937650",
+    "project_id": "mr-chatbot-84237",
+    "storage_bucket": "mr-chatbot-84237.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940263937650:android:ea96169deb43b5e2e514eb",
+        "android_client_info": {
+          "package_name": "com.example.mrchatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940263937650-hvf9qfaipnfe263gd2tgvbfolamertk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIktT92YC2cJn3lJTSGMWC3h4OEVSpqyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940263937650-hvf9qfaipnfe263gd2tgvbfolamertk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

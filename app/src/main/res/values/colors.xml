@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="myPrimary">#036307</color>
+    <color name="off_white">#E7E6E6</color>
+    <color name="mySecondary">#FFFF66</color>
+    <color name="lightgrey">#A6A6A6</color>
+    <color name="red">#F44336</color>
+    <color name="grey">#595959</color>
+
+    <color name="sender_color">#1E88E5</color>
+    <color name="receiver_color">#59A608</color>
+</resources>
