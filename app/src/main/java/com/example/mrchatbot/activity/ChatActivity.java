@@ -188,7 +188,7 @@ public class ChatActivity extends AppCompatActivity {
         Request request = new Request.Builder()
                 .url(url)
                 .post(body)
-                .header("Authorization", "Bearer AAAA2uwZFnI:APA91bHY6iYnOjxOP3hNBqIwGKpxYG8qhYLxg1SZKdele9HXKIw0Uds79t9K5o5PkfJXjOS3GiPf1zOK08IA5ywqPiHXG7ovzym7_4u6zmoW83nwsLLhpDocFgmYLfisfb_FYlTIS--I")
+                .header("Authorization", "Bearer YOUR API KEY")
                 .build();
         client.newCall(request).enqueue(new Callback() {
             @Override
